@@ -1,7 +1,5 @@
 name: Bug Report
 description: File a bug report
-title:
-labels:
 
 body:
   - type: markdown
@@ -13,8 +11,8 @@ body:
     attributes:
       label: Have you read the docs?
       options:
-        - No
-        - Yes
+        - 'No'
+        - 'Yes'
       validations:
         required: true
 
