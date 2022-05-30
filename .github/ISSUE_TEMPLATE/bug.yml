@@ -6,6 +6,7 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
+
   - type: dropdown
     id: docs
     attributes:
@@ -13,8 +14,8 @@ body:
       options:
         - 'No'
         - 'Yes'
-      validations:
-        required: true
+    validations:
+      required: true
 
   - type: input
     id: macos-ver
