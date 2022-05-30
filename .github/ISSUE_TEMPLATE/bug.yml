@@ -44,16 +44,6 @@ body:
     validations:
       required: true
 
-
-  - type: input
-    id: kext-ver
-    attributes:
-      label: Kext Version
-      description: Which version of the Kext are you using?
-      placeholder: v2.2.0
-    validations:
-      required: true
-
   - type: textarea
     id: description
     attributes:
