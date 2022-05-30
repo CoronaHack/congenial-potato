@@ -56,7 +56,7 @@ body:
     id: info
     attributes:
       label: Info in System Report - Bluetooth
-      description: Copy and paste all contents with sensitive information removed down below
+      description: Copy and paste all contents with sensitive information removed down below<br/>(Text in this field will be automatically formatted into code, so no need for backticks.)
       render: shell
     validations:
       required: true
@@ -65,7 +65,7 @@ body:
     id: logs
     attributes:
       label: Relevant log output
-      description: Output of `sudo dmesg | grep -i IntelBluetooth` with DebugEnhancer.kext installed. Text in this field will be automatically formatted into code, so no need for backticks.
+      description: Output of `sudo dmesg | grep -i IntelBluetooth` with DebugEnhancer.kext installed.<br/>(Text in this field will be automatically formatted into code, so no need for backticks.)
       render: shell
     validations:
       required: true
@@ -74,7 +74,7 @@ body:
     id: panic-logs
     attributes:
       label: Kernel Panic Logs
-      description: In case there is a kernel panic, add `keepsyms=1` in boot-args then paste the panic info below
+      description: In case there is a kernel panic, add `keepsyms=1` in boot-args then paste the panic info below<br/>(Text in this field will be automatically formatted into code, so no need for backticks.)
       render: shell
     validations:
       required: false
